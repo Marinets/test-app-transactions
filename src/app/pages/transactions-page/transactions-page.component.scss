@@ -1,0 +1,52 @@
+
+.transactions {
+  &__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+  }
+  &__total {
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+  &__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    &__left {
+      display: flex;
+      gap: 20px;
+      justify-content: flex-start;
+      align-items: center;
+    }
+    &__left {
+      display: flex;
+      gap: 20px;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+}
+
+.mat-column-actions {
+  text-align: right;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  cursor: pointer;
+}
+
+.income {
+  color: green;
+  &:before {
+    content: '+';
+  }
+}
+
+.expenses {
+  color: red;
+  &:before {
+    content: '-';
+  }
+}

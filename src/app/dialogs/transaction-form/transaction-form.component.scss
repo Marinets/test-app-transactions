@@ -1,0 +1,14 @@
+
+.edit-transaction {
+  &__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
